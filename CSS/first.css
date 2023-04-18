@@ -1,0 +1,16 @@
+/* HTML: 명사, CSS: 형용사, JS: 동사 */
+/* 선택자 {특성: 값;} */
+h2 {
+    color: indigo;
+    background-color: plum;
+}
+
+button {
+    color: magenta;
+    background-color: cyan;
+}
+
+p {
+    color: olive;
+    background: orange;
+}

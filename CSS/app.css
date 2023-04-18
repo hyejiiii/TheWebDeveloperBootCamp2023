@@ -1,0 +1,16 @@
+body {
+    color: purple;
+}
+
+section {
+    color: blue
+}
+
+form {
+    color: green
+}
+
+button, input {
+    /* 상위항목 속성 상속받음 */
+    color: inherit;
+}

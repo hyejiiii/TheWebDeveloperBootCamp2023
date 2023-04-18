@@ -1,0 +1,123 @@
+/* *: 모든 요소 선택 */
+body {
+    background-color: #fefae0;
+}
+
+button {
+    font-size: 30px;
+    background-color: #e9edc9;
+}
+
+h1,
+h2 {
+    color: #283618;
+}
+
+/* #: id 선택자 */
+#SignUp {
+    background-color: #606c38;
+    color: #faedcd;
+}
+
+span {
+    color: #ccd5ae;
+}
+
+/* .: class 선택자 */
+.tag {
+    background-color: #dad7cd;
+    color: #588157;
+    font-size: 18px;
+}
+
+/* 자손선택 */
+/* span a {
+   color: #ccd5ae; 
+} */
+.post a {
+    color: #ccd5ae;
+    text-decoration: none;
+}
+
+footer a {
+    color: #3a5a40;
+}
+
+/* + 인접선택자 */
+/* input + button {
+    background-color: pink;
+} */
+h2+button {
+    font-size: 20px;
+    /* background-color: magenta; */
+}
+
+/* > 직계자손선택자 */
+footer>a {
+    color: #4a7c59;
+}
+
+/* 속성선택자 */
+input[type="password"] {
+    color: green;
+}
+
+section.post {
+    background-color: #fffcf2;
+}
+
+/* <a> elements with an href containing "example"
+a[href*="example"]
+*/
+a[href*="google"] {
+    color: magenta;
+}
+
+/* <a> elements with an href ending ".org"
+a[href$=".org"]
+*/
+/* <a> elements whose class attribute contains the word "logo"
+a[class~="logo"]
+*/
+
+/* 가상클래스(pseudo class) */
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #dad7cd;
+}
+
+.post:nth-of-type(3n) {
+    background-color: #e3d5ca;
+}
+
+/* 가상요소(pseudo elements) */
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #ffffff;
+}
+
+/* 우선순위 */
+/* 더 구체적인 선택자를 우선적으로 적용함 */
+/* id <- class <- elements */
+/* 인라인 스타일이 더 명시적임 so 최대한 쓰지말기 */
+/* !important: 제일 명시적이게 브라우저가 인식함 */
+.post button:hover {
+    background-color: #a3b18a;
+    color: white;
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
