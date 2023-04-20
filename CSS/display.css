@@ -1,0 +1,45 @@
+/* h1 { */
+/* background-color: palegoldenrod; */
+/* border: 1px solid black; */
+/* span처럼 한 문단에 나란히 있게 바뀜 */
+/* display: inline;} */
+
+
+/* span { */
+/* background-color: paleturquoise; */
+/* border: 1px solid black; */
+/* inline 요소였던 span이 블록요소로 바뀜 */
+/* display: block; */
+/* } */
+
+span {
+    background-color: palevioletred;
+    border: 1px solid black;
+    /* 요소가 인라인 디스플레이면 너비나 높이 무시됨 */
+    width: 500px;
+    padding: 10px;
+    /* span이 있는 해당 라인에만 적용됨 */
+    margin: 50px;
+}
+
+h1 {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    /* 가로 세로 적용은 가능함 */
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 100px;
+    /* 문서내에 그대로 있지만 공간을 차지하지 않음 */
+    display: none;
+}
+
+/* 인라인 블록: 인라인 요소처럼 작동하지만 가로 세로 여백 패딩 적용 가능*/
+div {
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 50px;
+}

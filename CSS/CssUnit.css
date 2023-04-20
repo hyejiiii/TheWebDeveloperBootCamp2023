@@ -1,0 +1,74 @@
+section {
+    background-color: aquamarine;
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: aqua;
+    /* 부모 요소의 50% */
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    /* 부모 요소와 상관없음 폰트와 상관 */
+    line-height: 200%;
+}
+
+#ems h2 {
+    /* em은 부모요소의 크기에 맞춘 변경 */
+    /* 폰트사이즈가 1em이면 부모요소와 사이즈 똑같아짐 */
+    /* 2em은 2배 커지는거 */
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+#ems h3 {
+    font-size: 1.5em;
+}
+
+#ems p {
+    font-size: 1em;
+}
+
+#ems {
+    font-size: 20px;
+}
+
+#ems button {
+    font-size: 30px;
+    padding: 0 30px;
+    border-radius: 15px;
+    background-color: rgb(131, 164, 88);
+    color: white;
+}
+
+#ems ul {
+    /* em의 문제점은 단계적으로 누적됨 */
+    /* rem: 문서 전체에서 하나의 글꼴 크기에 비례하여 바뀜 */
+    font-size: 0.7em;
+}
+
+/* 루트 글꼴 크기 바꾸기 */
+html {
+    font-size: 20px;
+}
+
+#rems h3 {
+    font-size: 3rem;
+}
+
+#rems h2 {
+    font-size: 2rem;
+}
+
+#rems ul {
+    font-size: 0.8rem;
+}
+
+#rems button {
+    font-size: 2rem;
+}

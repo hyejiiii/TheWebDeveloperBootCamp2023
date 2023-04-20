@@ -1,0 +1,62 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    background-color: pink;
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 50px;
+    /* h1 기본적으로 여백 보유함 */
+    margin: 0;
+}
+
+span {
+    margin-left: 30px;
+    /* 위아래로 움직이지 않는 이유는 무엇일까? */
+    /* 디스플레이 속성 */
+    margin-top: 30px;
+}
+
+/* padding 테두리와 콘텐츠 사이의 거리 */
+#one {
+    background-color: rgb(244, 162, 162);
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    /* box-sizing: border-box; */
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#two {
+    background-color: rgb(255, 160, 253);
+    border-color: rgb(65, 61, 61);
+    border-width: 3px;
+    border-style: dashed;
+    border-left-width: 5px;
+    border-left-color: rgb(145, 45, 45);
+    padding-right: 50px;
+    margin: 200px;
+}
+
+#three {
+    background-color: rgb(147, 96, 109);
+    /* 속기법 */
+    border: 4px solid rgb(0, 0, 0);
+    border-left-style: dotted;
+    border-radius: 10px;
+    /* 50% --> 원형 */
+}
+
+button {
+    /* 전체 */
+    /* padding: 20px; */
+    /* 상단 하단 / 좌측 우측 */
+    /* padding: 10px 20px; */
+    /* 상단 좌우 하단 --> padding: 1px 2px 2px */
+    /* 상단 우측 하단 좌측 */
+    padding: 10px 20px 30px 40px;
+
+}
