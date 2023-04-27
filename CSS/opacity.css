@@ -1,0 +1,22 @@
+section {
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    /* background-color: white; */
+    /* rgba의 투명도는 배경에만 적용됨 */
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    /* opcity는 전체적으로 적용됨 */
+    /* 버튼 등 다른 컨텐츠도 영향을 받음 */
+    opacity: 0.5;
+}

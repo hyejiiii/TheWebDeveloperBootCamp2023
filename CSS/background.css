@@ -1,0 +1,20 @@
+section {
+    width: 80%;
+    height: 800px;
+    /* background-color: purple; */
+    /* background-image: url(https://images.unsplash.com/photo-1682587177517-80523418eef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80); */
+    /* contain 이미지 잘림없이 크기에 맞춰줌 */
+    /* cover 이미지 크기에 맞춰주지만 잘림있음 */
+    /* background-size: cover; */
+    /* 사진 시작점 정해줌 */
+    /* background-position: bottom; */
+    /* 속기법으로 모든 속성 정할 수 있으며 순서 상관없음 */
+    background: url(https://images.unsplash.com/photo-1682587177517-80523418eef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80) center/cover;
+    /* background-size를 쓰려면 position 뒤에 /와 함께 크기값  */
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
